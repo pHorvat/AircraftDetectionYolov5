@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask YOLOv5 App</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if output_image %}
+        <h2>Output Image</h2>
+        <img src="{{ output_image }}" alt="Output Image">
+    {% endif %}
+</body>
+</html>
