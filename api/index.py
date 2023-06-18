@@ -20,7 +20,7 @@ def upload_and_detect():
 
 def run_detection(image_path):
     # Run the detect.py script with the provided image path
-    command = f'python detect.py --weights weights/MilitaryAircraft/yolov5m_med.pt --source "{image_path}" --name detect_su57'
+    command = f'python detect.py --weights best.pt --source "{image_path}" --name detect_su57'
     os.system(command)
     
     # Extract the output file name from the detect.py output
