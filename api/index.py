@@ -3,12 +3,17 @@ import os
 
 app = Flask(__name__)
 
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 @app.route('/', methods=['GET', 'POST'])
 def upload_and_detect():
     if request.method == 'POST':
         file = request.files['file']
         if file:
-            file_path = os.path.join('uploads', file.filename)
+            if not os.path.exists(app.config['UPLOAD_FOLDER']):
+                os.makedirs(app.config['UPLOAD_FOLDER'])
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             file.save(file_path)
             
             output_file = run_detection(file_path)
