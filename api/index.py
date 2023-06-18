@@ -16,7 +16,7 @@ def upload_and_detect():
             
             return render_template('result.html', image_path=output_path)
         
-    return render_template('index.html')
+    return render_template('home.html')
 
 def run_detection(image_path):
     # Run the detect.py script with the provided image path
