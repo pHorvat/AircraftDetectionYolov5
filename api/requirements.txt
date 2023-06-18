@@ -1,0 +1,5 @@
+flask
+torch
+torchvision
+Pillow
+git+https://github.com/ultralytics/yolov5.git
