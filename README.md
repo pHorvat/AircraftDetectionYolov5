@@ -17,7 +17,7 @@ Due to resource limitations, only these aircraft models have been considered. Th
 
 ## Acknowledgements
 
-This project is based on the work of a Kaggle notebook created by [changchi0914](https://www.kaggle.com/code/changchi0914). I express my gratitude to the author for providing a valuable template that served as the foundation for our project.
+This project is based on the work of a Kaggle notebook created by [changchi0914](https://www.kaggle.com/changchi0914). I express my gratitude to the author for providing a valuable template that served as the foundation for our project.
 
 ## Dataset
 
