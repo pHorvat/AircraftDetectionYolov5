@@ -1,8 +1,6 @@
 # Military Aircraft Detection using YOLOv5
 
 
-![Project Logo](https://example.com/project_logo.png)
-
 This repository contains the code and resources for a computer vision project that focuses on detecting military aircraft using YOLOv5. The project utilizes a custom dataset of military planes, which can be found at [Kaggle: Military Aircraft Detection Dataset](https://www.kaggle.com/datasets/a2015003713/militaryaircraftdetectiondataset).
 
 ## Project Overview
@@ -19,7 +17,7 @@ Due to resource limitations, only these aircraft models have been considered. Th
 
 ## Acknowledgements
 
-This project is based on the work of a Kaggle notebook created by [changchi0914](https://www.kaggle.com/code/changchi0914/militaryaircraftdetectionyolov5). We express our gratitude to the author for providing a valuable template that served as the foundation for our project.
+This project is based on the work of a Kaggle notebook created by [changchi0914](https://www.kaggle.com/code/changchi0914). I express my gratitude to the author for providing a valuable template that served as the foundation for our project.
 
 ## Dataset
 
@@ -27,31 +25,40 @@ The dataset used for training and evaluation can be found at the following locat
 
 ## Images
 
+Plain Yolov5 detection of an F16:
 <p align="center">
   <img src="yolov5.png" alt="Plain Yolov5 Image" height="500">
 </p>
-Plain Yolov5 detection of an F16
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image1.jpg" alt="Image 1" style="max-width: 100%;">
-  </div>
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image2.jpg" alt="Image 2" style="max-width: 100%;">
-  </div>
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image3.jpg" alt="Image 3" style="max-width: 100%;">
-  </div>
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image4.jpg" alt="Image 4" style="max-width: 100%;">
-  </div>
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image5.jpg" alt="Image 5" style="max-width: 100%;">
-  </div>
-  <div style="flex-basis: 33.33%; padding: 10px;">
-    <img src="image6.jpg" alt="Image 6" style="max-width: 100%;">
-  </div>
-</div>
+
+Detection using the custom trained dataset:
+<table align="center">
+  <tr>
+    <td>
+      <img src="f16.png" alt="F16" style="width:500px;">
+    </td>
+    <td>
+      <img src="f15.png" alt="F15" style="width:500px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="c130.png" alt="C130" style="width:500px;">
+    </td>
+    <td>
+      <img src="f18.png" alt="F18" style="width:500px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="f16c130.png" alt="F16 C130" style="width:500px;">
+    </td>
+    <td>
+      <img src="f35.png" alt="F35" style="width:500px;">
+    </td>
+  </tr>
+</table>
+
 
 
 
